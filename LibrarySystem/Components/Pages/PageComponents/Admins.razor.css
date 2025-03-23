@@ -1,0 +1,48 @@
+﻿.admin_section {
+    background-color: #1E1E1E;
+    padding-bottom: 50px;
+}
+
+.admins {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.admin-title h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.admin-title {
+    padding-top: 20px;
+}
+
+.admin-name {
+    margin-top: 10px;
+    color: white;
+}
+
+.admin-role {
+    color: gray;
+}
+
+.admin-photo {
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.admins {
+    margin-top: 50px;
+}
