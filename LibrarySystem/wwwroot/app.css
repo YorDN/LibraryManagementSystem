@@ -5,7 +5,15 @@ html, body {
 a, .btn-link {
     color: #006bb7;
 }
-
+p{
+    margin: 0;
+}
+h1{
+    font-weight: bolder;
+}
+body{
+    margin-bottom: 200px;
+}
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
@@ -42,9 +50,9 @@ h1:focus {
     color: white;
 }
 
-    .blazor-error-boundary::after {
-        content: "An error has occurred."
-    }
+.blazor-error-boundary::after {
+    content: "An error has occurred."
+}
 
 .darker-border-checkbox.form-check-input {
     border-color: #929292;

@@ -1,0 +1,41 @@
+﻿.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+h1{
+    font-weight: bolder;
+}
+.stat {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stats_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.stat-title {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.stat-num {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.stat-up {
+    font-size: 20px;
+}
+
+.stat h1 {
+    font-size: 30px;
+}
+
