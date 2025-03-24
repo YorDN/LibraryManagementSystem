@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibrarySystem.Data.Models
 {
-    [Comment("A user of the system")]
     class User
     {
         [Key]
