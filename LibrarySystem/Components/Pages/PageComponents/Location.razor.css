@@ -36,3 +36,10 @@
     color: black;
     text-decoration: none;
 }
+#phone{
+    color: black;
+    text-decoration: none;
+}
+#website:hover, #phone:hover{
+    text-decoration: underline;
+}
