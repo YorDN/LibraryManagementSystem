@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibrarySystem.Data.Models
 {
+    /// <summary>
+    ///    This is the Borrow model, which represents a book borrowed by a user in the LMS
+    /// </summary>
     class Borrow
     {
         [Key]

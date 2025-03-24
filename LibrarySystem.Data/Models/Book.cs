@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibrarySystem.Data.Models
 {
+    /// <summary>
+    ///    This is the Book model, which represents a book in the LMS
+    /// </summary>
     class Book
     {
         [Key]

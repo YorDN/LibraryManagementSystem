@@ -6,6 +6,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibrarySystem.Data.Models
 {
+    /// <summary>
+    ///     This is the Review model, which represents a review by a user in the LMS
+    /// </summary>
+
     class Review
     {
         [Key]
@@ -25,7 +29,7 @@ namespace LibrarySystem.Data.Models
 
         [MaxLength(1000)]
         [Comment("The comment of the review")]
-        public string Comment { get; set; }
+        public string? Comment { get; set; }
 
         [Comment("When was the review created")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;

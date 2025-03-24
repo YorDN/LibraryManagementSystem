@@ -5,6 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibrarySystem.Data.Models
 {
+    /// <summary>
+    ///   This is the Author model, which represents an author in the LMS
+    /// </summary>
     class Author
     {
         [Key]
