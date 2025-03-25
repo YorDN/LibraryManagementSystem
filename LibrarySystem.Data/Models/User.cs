@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 namespace LibrarySystem.Data.Models
 {
     /// <summary>
-    ///  This is the User model, which represents a user in the LMS
+    ///     This is the User model, which represents a user in the LMS
     /// </summary>
-    class User : IdentityUser
+    class User : IdentityUser<int>
     {
         
         [Required]
