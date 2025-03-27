@@ -1,0 +1,21 @@
+﻿.cover{
+    height:250px;
+    width:170px;
+    object-fit: cover;
+}
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+#cover-field {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 100%;
+    flex: 1;
+}

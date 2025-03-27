@@ -3,15 +3,17 @@
 <table>
 	<thead>
 		<tr>
-			<th>Заглавие</th>
-			<th>Описание</th>
-			<th>Автор</th>
+			<th id="book-cover">Обложка</th>
+			<th id="title">Заглавие</th>
+			<th id="description">Описание</th>
+			<th id="author">Автор</th>
 		</tr>
 	</thead>
 	<tbody>
 		@foreach (var item in books)
 		{
 			<tr>
+				<td id="cover-field"><img class="cover" src="@item.Cover"/></td>
 				<td>@item.Title</td>
 				<td>@item.Description</td>
 				<td>@item.Author</td>
@@ -28,6 +30,7 @@
 		public required string Title { get; set; }
 		public required string Description { get; set; }
 		public required string Author { get; set; }
+		public string Cover { get; set; }
 
 	}
 	// The books will be extracted from a service class rather than creating them here
@@ -37,19 +40,22 @@
 		{
 			Title = "Boogie Man",
 			Description = "A book of wonders",
-			Author = "Yordan Yordanov"
+			Author = "Yordan Yordanov",
+			Cover = "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1506192579i/36291755.jpg"
 		},
 		new Book()
 		{
 			Title = "To kill a Mockingbird",
 			Description = "A lawyer and his companions go on adventure through the wild west of 1980s",
-			Author = "Laura White"
+			Author = "Laura White",
+			Cover = "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1612238791i/56916837.jpg"
 		},
 		new Book()
 		{
 			Title = "Spoken like a man",
 			Description = "A commedy book",
-			Author = "Shochel Kindern"
+			Author = "Shochel Kindern",
+			Cover = "https://m.media-amazon.com/images/I/71Wt5fBfO0L._AC_UF1000,1000_QL80_.jpg"
 		}
 	};
 }
