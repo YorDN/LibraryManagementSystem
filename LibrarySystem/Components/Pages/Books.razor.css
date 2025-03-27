@@ -1,4 +1,9 @@
-﻿.cover{
+﻿@font-face{
+    font-family: ArbatC;
+    src: url("../../wwwroot/Fonts/5-font.woff") format('woff');
+}
+
+.cover{
     height:250px;
     width:170px;
     object-fit: cover;
@@ -18,4 +23,7 @@ th, td {
 table{
     width: 100%;
     flex: 1;
+}
+.books-title {
+    font-family: sans-serif;
 }
