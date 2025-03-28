@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LibrarySystem.Common\LibrarySystem.Common.csproj" />
+  </ItemGroup>
+
 </Project>
