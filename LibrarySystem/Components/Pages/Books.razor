@@ -60,4 +60,23 @@
 			Cover = "https://m.media-amazon.com/images/I/71Wt5fBfO0L._AC_UF1000,1000_QL80_.jpg"
 		}
 	};
+	class Quote
+	{
+		public required string Text { get; set; }
+		public required string Author { get; set; }
+
+	}
+	List<Quote> quotes = new List<Quote>()
+	{
+		new Quote()
+		{
+			Text = "Книгата е порталът към рая...",
+			Author = "Йордан Йорданов"
+		},
+		new Quote()
+		{
+			Text = "Книгите са живот",
+			Author = "Йордан Йорданов"
+		},
+	};
 }
