@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibrarySystem.Data
 {
-    class LibraryDbContext : IdentityDbContext<User, IdentityRole<int>, int>
+    public class LibraryDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
     {
         public LibraryDbContext(DbContextOptions<LibraryDbContext> dbContextOptions) 
             :base(dbContextOptions)

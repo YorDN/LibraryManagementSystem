@@ -10,7 +10,7 @@ namespace LibrarySystem.Data.Models
     ///     This is the Review model, which represents a review by a user in the LMS
     /// </summary>
 
-    class Review
+    public class Review
     {
         [Key]
         public int Id { get; set; }

@@ -8,7 +8,7 @@ namespace LibrarySystem.Data.Models
     /// <summary>
     ///    This is the Publisher model, which represents a publisher in the LMS
     /// </summary>
-    class Publisher
+    public class Publisher
     {
         [Key]
         public int Id { get; set; }

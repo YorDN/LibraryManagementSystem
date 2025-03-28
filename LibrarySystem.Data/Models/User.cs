@@ -9,9 +9,13 @@ namespace LibrarySystem.Data.Models
     /// <summary>
     ///     This is the User model, which represents a user in the LMS
     /// </summary>
-    class User : IdentityUser<int>
+    public class User : IdentityUser<Guid>
     {
-        
+        public User()
+        {
+            Id = Guid.NewGuid();
+        }
+
         [Required]
         [Comment("The user's profile picture")]
         // The profile picture is required because every user must have one 

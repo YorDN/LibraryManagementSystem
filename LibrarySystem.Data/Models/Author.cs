@@ -8,7 +8,7 @@ namespace LibrarySystem.Data.Models
     /// <summary>
     ///   This is the Author model, which represents an author in the LMS
     /// </summary>
-    class Author
+    public class Author
     {
         [Key]
         public int Id { get; set; }
