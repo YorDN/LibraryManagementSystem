@@ -20,7 +20,7 @@ namespace LibrarySystem.Data.Models
         public Book Book { get; set; } = null!;
 
         [ForeignKey("User")]
-        public int UserId { get; set; }
+        public Guid UserId { get; set; }
         public User User { get; set; } = null!;
 
         [Required]
