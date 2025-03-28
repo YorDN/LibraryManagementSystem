@@ -19,5 +19,6 @@ namespace LibrarySystem.Data
         public DbSet<Borrow> Borrows { get; set; } = null!;
         public DbSet<Author> Authors { get; set; } = null!;
         public DbSet<Book> Books { get; set; } = null!;
+        public DbSet<Quote> Quotes { get; set; }
     } 
 }
